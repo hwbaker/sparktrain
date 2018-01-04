@@ -23,8 +23,8 @@ public class KafkaConsumer extends Thread {
 
     private ConsumerConnector createConnector() {
         Properties properties = new Properties();
-        properties.put("zookeeper.connect", KafkaProperties.ZK);
-        properties.put("group.id", KafkaProperties.GROUP_ID);
+        properties.put("zookeeper.connect", com.imooc.spark.kafka.KafkaProperties.ZK);
+        properties.put("group.id", com.imooc.spark.kafka.KafkaProperties.GROUP_ID);
 
         return Consumer.createJavaConsumerConnector(new ConsumerConfig(properties));
     }
