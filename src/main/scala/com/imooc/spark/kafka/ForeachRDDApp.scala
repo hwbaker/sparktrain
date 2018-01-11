@@ -1,5 +1,7 @@
 package com.imooc.spark.kafka
 
+import java.sql.DriverManager
+
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 
@@ -8,31 +10,76 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
   */
 object ForeachRDDApp {
   def main(args: Array[String]): Unit = {
-    val sparkConf = new SparkConf().setMaster("local[2]").setAppName("StatefulWordCount")
+    val sparkConf = new SparkConf().setMaster("local[2]").setAppName("ForeachRDDApp")
     val ssc = new StreamingContext(sparkConf, Seconds(5))
 
-    // 如果使用了stateful的算子，必须要设置checkpoint，设置在当前目录 .
-    // 在生产环境中，建议大家把checkpoint设置到HDFS的某个文件夹中
-    ssc.checkpoint(".")
-
     val lines = ssc.socketTextStream("localhost", 6789)
-    val result = lines.flatMap(_.split(" ")).map((_,1))
-    val state = result.updateStateByKey[Int](updateFunction _)
-    state.print()
+    val result = lines.flatMap(_.split(" ")).map((_, 1)).reduceByKey(_ + _)
+
+    result.print()
+
+
+    //Written to MySql。测试失败：org.apache.spark.SparkException: Task not serializable
+//    result.foreachRDD( rdd => {
+//      val connection = createConnection()
+//      rdd.foreach { record =>
+//        val sql = "insert into wordcount(word, wordcount) values('" + record._1 + "'," + record._2 + ")"
+//        connection.createStatement().execute(sql)
+//      }
+//    }
+//    )
+
+    result.foreachRDD(rdd => {
+
+      rdd.foreachPartition(partitionOfRecords => {
+
+//        if (partitionOfRecords.size > 0) {
+          val connection = createConnection()
+          partitionOfRecords.foreach(pair => {
+            //whether has row or not
+            val sqlFind = "select id,word,wordcount from wordcount where word = '" + pair._1 + "'"
+            val resultSet = connection.createStatement().executeQuery(sqlFind)
+            if(resultSet.next()) {
+              val sql = "update wordcount set wordcount = wordcount + " + pair._2 + " where word = '" + pair._1 + "'"
+              println("upSql:"+sql+"\n")
+              connection.createStatement().execute(sql)
+            } else {
+              val sql = "insert into wordcount(word, wordcount) values('" + pair._1 + "'," + pair._2 + ")"
+              printf("inSql:"+sql+"\n")
+              connection.createStatement().execute(sql)
+            }
+//            while (resultSet.next()) {
+//              val id = resultSet.getInt("id")
+//              val word = resultSet.getString("word")
+//              val wordcount = resultSet.getInt("wordcount")
+//              print(id + ":" + word + ":" +wordcount)
+//              if (id != 0) {
+//                val sql = "update wordcount set wordcount = wordcount + " + pair._2 + " where id = " + id
+//                println("update:"+sql)
+//                connection.createStatement().execute(sql)
+//              } else {
+//                val sql = "insert into wordcount(word, wordcount) values('" + pair._1 + "'," + pair._2 + ")"
+//                printf("insert:"+sql)
+//                connection.createStatement().execute(sql)
+//              }
+//            }
+
+          })
+
+          connection.close()
+//        }
+      })
+    })
 
     ssc.start()
     ssc.awaitTermination()
   }
 
   /**
-    *
-    * @param currentValues
-    * @param preValues
-    * @return
+    * 获取MySQL的连接
     */
-  def updateFunction(currentValues: Seq[Int], preValues: Option[Int]): Option[Int] = {
-    val current = currentValues.sum
-    val pre = preValues.getOrElse(0)
-    Some(current + pre)
+  def createConnection() = {
+    Class.forName("com.mysql.jdbc.Driver")
+    DriverManager.getConnection("jdbc:mysql://localhost:3306/imooc_spark", "root", "12345678")
   }
 }
