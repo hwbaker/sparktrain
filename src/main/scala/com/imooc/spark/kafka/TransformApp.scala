@@ -12,14 +12,6 @@ object TransformApp {
     val sparkConf = new SparkConf().setAppName("TransformApp").setMaster("local[2]")
     val ssc = new StreamingContext(sparkConf, Seconds(5))
 
-//    val tests = List("2018:aa", "2018:bb")
-//    val x = tests.map(x => (x.split(":")(1), true))
-//    val y = tests.map(x => (x.split(":")(1), x))
-//    val z = tests.map(x => x.split(":")(0).toInt)
-//    println(x)
-//    println(y)
-//    println(z)
-
     /**
       * build blacklist
       */

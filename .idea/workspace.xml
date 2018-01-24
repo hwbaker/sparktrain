@@ -2,12 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5cf950d-30fa-4469-9f2d-06c615f797c5" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_univocity_univocity_parsers_2_2_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_1.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_31.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/TransformApp.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_5_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_configuration_1_6_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_core_1_6_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_sdk_1_6_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_mina_mina_core_2_0_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_column_1_8_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_common_1_8_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_encoding_1_8_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_format_2_3_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_hadoop_1_8_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_jackson_1_8_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_catalyst_2_11_2_2_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sketch_2_11_2_2_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sql_2_11_2_2_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_flume_2_11_2_2_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_flume_sink_2_11_2_2_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_0_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_janino_3_0_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/FlumePushWordCount.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/SqlNetworkWordCount.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/scalaTest.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/FileWordCount$$anonfun$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/FileWordCount$$anonfun$2.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/FileWordCount$$anonfun$3.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/FileWordCount$.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/FileWordCount.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/FlumePushWordCount$$anonfun$main$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/FlumePushWordCount$$anonfun$main$2.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/FlumePushWordCount$$anonfun$main$3.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/FlumePushWordCount$$anonfun$main$4.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/FlumePushWordCount$.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/FlumePushWordCount.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/ForeachRDDApp$$anonfun$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/ForeachRDDApp$$anonfun$2.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/ForeachRDDApp$$anonfun$3.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/ForeachRDDApp$$anonfun$main$1$$anonfun$apply$1$$anonfun$apply$2.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/ForeachRDDApp$$anonfun$main$1$$anonfun$apply$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/ForeachRDDApp$$anonfun$main$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/ForeachRDDApp$.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/ForeachRDDApp.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/NetworkWordCount$$anonfun$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/NetworkWordCount$$anonfun$2.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/NetworkWordCount$$anonfun$3.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/NetworkWordCount$.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/NetworkWordCount.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/SqlNetworkWordCount$$anonfun$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/SqlNetworkWordCount$$anonfun$main$1$$anonfun$2.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/SqlNetworkWordCount$$anonfun$main$1$$typecreator3$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/SqlNetworkWordCount$$anonfun$main$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/SqlNetworkWordCount$.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/SqlNetworkWordCount$Record$.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/SqlNetworkWordCount$Record.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/SqlNetworkWordCount$SparkSessionSingleton$.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/SqlNetworkWordCount.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/StatefulWordCount$$anonfun$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/StatefulWordCount$$anonfun$2.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/StatefulWordCount$$anonfun$3.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/StatefulWordCount$$anonfun$4.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/StatefulWordCount$.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/StatefulWordCount.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/TransformApp$$anonfun$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/TransformApp$$anonfun$2.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/TransformApp$$anonfun$3.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/TransformApp$$anonfun$4$$anonfun$apply$2$$anonfun$apply$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/TransformApp$$anonfun$4$$anonfun$apply$2.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/TransformApp$$anonfun$4$$anonfun$apply$3.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/TransformApp$$anonfun$4.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/TransformApp$.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/TransformApp.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/scalaTest$$anonfun$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/scalaTest$$anonfun$2.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/scalaTest$$anonfun$3.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/scalaTest$$anonfun$4.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/scalaTest$.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/imooc/spark/kafka/scalaTest.class" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_7_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_7_4.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/sparktrain.iml" afterPath="$PROJECT_DIR$/sparktrain.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/ForeachRDDApp.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/ForeachRDDApp.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/TransformApp.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/TransformApp.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,8 +101,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="103">
+              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding>
                 <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
                 <element signature="n#reporting#0;n#project#0;n#!!top" expanded="false" />
@@ -33,33 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForeachRDDApp.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/ForeachRDDApp.scala">
+      <file leaf-file-name="FlumePushWordCount.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/FlumePushWordCount.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="39" column="45" lean-forward="true" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
-              <folding>
-                <element signature="e#31#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NetworkWordCount.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/NetworkWordCount.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransformApp.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/TransformApp.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="37" />
+            <state relative-caret-position="105">
+              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="35" />
               <folding>
                 <element signature="e#31#64#0" expanded="true" />
               </folding>
@@ -67,12 +123,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DStream.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/MavenRepos/org/apache/spark/spark-streaming_2.11/2.2.0/spark-streaming_2.11-2.2.0-sources.jar!/org/apache/spark/streaming/dstream/DStream.scala">
+      <file leaf-file-name="ForeachRDDApp.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/ForeachRDDApp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="545" column="6" lean-forward="false" selection-start-line="545" selection-start-column="6" selection-end-line="545" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="195">
+              <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="34" />
+              <folding>
+                <element signature="e#31#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransformApp.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/TransformApp.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#31#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqlNetworkWordCount.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/SqlNetworkWordCount.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <folding>
+                <element signature="e#31#64#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,6 +165,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
@@ -111,12 +194,15 @@
         <option value="$PROJECT_DIR$/src/main/java/KafkaProducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/spark/kafka/KafkaClientApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/spark/kafka/KafkaProducer.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/NetworkWordCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/StatefulWordCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/FileWordCount.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/TransformApp.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/ForeachRDDApp.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/NetworkWordCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/TransformApp.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/scalaTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/SqlNetworkWordCount.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/FlumePushWordCount.scala" />
       </list>
     </option>
   </component>
@@ -143,6 +229,11 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="sparktrain" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sparktrain" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
@@ -155,9 +246,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -174,8 +266,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,7 +318,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,7 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ForeachRDDApp">
+  <component name="RunManager" selected="Application.FlumePushWordCount">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -269,17 +361,17 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="FileWordCount" type="Application" factoryName="Application" temporary="true">
+    <configuration name="FlumePushWordCount" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.imooc.spark.kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.imooc.spark.kafka.FileWordCount" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.spark.kafka.FlumePushWordCount" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="0.0.0.0 41414" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -326,33 +418,14 @@
       <module name="sparktrain" />
       <envs />
     </configuration>
-    <configuration name="StatefulWordCount" type="Application" factoryName="Application" temporary="true">
+    <configuration name="SqlNetworkWordCount" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.imooc.spark.kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.imooc.spark.kafka.StatefulWordCount" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="sparktrain" />
-      <envs />
-    </configuration>
-    <configuration name="TransformApp" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.spark.kafka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.imooc.spark.kafka.TransformApp" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.spark.kafka.SqlNetworkWordCount" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -376,6 +449,25 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="scalaTest" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.spark.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.imooc.spark.kafka.scalaTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sparktrain" />
       <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -440,18 +532,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.NetworkWordCount" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FileWordCount" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StatefulWordCount" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ForeachRDDApp" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TransformApp" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ForeachRDDApp" />
+      <item index="2" class="java.lang.String" itemvalue="Application.scalaTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SqlNetworkWordCount" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FlumePushWordCount" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ForeachRDDApp" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TransformApp" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StatefulWordCount" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FileWordCount" />
-        <item index="4" class="java.lang.String" itemvalue="Application.NetworkWordCount" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FlumePushWordCount" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SqlNetworkWordCount" />
+        <item index="2" class="java.lang.String" itemvalue="Application.scalaTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.NetworkWordCount" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ForeachRDDApp" />
       </list>
     </recent_temporary>
   </component>
@@ -478,20 +570,22 @@
       <workItem from="1515063452229" duration="262000" />
       <workItem from="1515063751652" duration="1722000" />
       <workItem from="1515215895852" duration="8396000" />
-      <workItem from="1515395270292" duration="19645000" />
+      <workItem from="1515395270292" duration="26436000" />
+      <workItem from="1516432757732" duration="348000" />
+      <workItem from="1516498276257" duration="4764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32168000" />
+    <option name="totallyTimeSpent" value="44071000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810047" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -499,11 +593,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.58" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28728414" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28828126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1953125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -531,6 +625,36 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/ForeachRDDApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="4" lean-forward="false" selection-start-line="73" selection-start-column="4" selection-end-line="74" selection-end-column="26" />
+          <folding>
+            <element signature="e#31#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/TransformApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="e#31#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/SqlNetworkWordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="e#31#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -546,9 +670,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#31#64#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -781,14 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/MavenRepos/org/apache/spark/spark-streaming_2.11/2.2.0/spark-streaming_2.11-2.2.0-sources.jar!/org/apache/spark/streaming/dstream/DStream.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="545" column="6" lean-forward="false" selection-start-line="545" selection-start-column="6" selection-end-line="545" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/StatefulWordCount.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -805,18 +919,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/MavenRepos/org/apache/spark/spark-streaming_2.11/2.2.0/spark-streaming_2.11-2.2.0-sources.jar!/org/apache/spark/streaming/dstream/DStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="545" column="6" lean-forward="false" selection-start-line="545" selection-start-column="6" selection-end-line="545" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/package.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/NetworkWordCount.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="92">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/MavenRepos/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0.jar!/org/apache/spark/SparkContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="60" column="6" lean-forward="false" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/MavenRepos/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0-sources.jar!/org/apache/spark/SparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="719" column="29" lean-forward="false" selection-start-line="719" selection-start-column="8" selection-end-line="719" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/scalaTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="103">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
             <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#reporting#0;n#project#0;n#!!top" expanded="false" />
@@ -824,10 +968,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/SqlNetworkWordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="e#31#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/TransformApp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="37" />
+        <state relative-caret-position="122">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#31#64#0" expanded="true" />
           </folding>
@@ -836,10 +990,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/ForeachRDDApp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="39" column="45" lean-forward="true" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+        <state relative-caret-position="195">
+          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="34" />
           <folding>
             <element signature="e#31#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/spark/kafka/FlumePushWordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="e#31#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
