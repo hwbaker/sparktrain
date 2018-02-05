@@ -5,6 +5,7 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 /**
   * Filter blackList
+  * 黑名单过滤
   */
 object TransformApp {
   def main(args: Array[String]): Unit = {

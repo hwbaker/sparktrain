@@ -7,6 +7,7 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 /**
   * tester: nc -lk 6789
+  * 统计结果写入到MySql数据库
   */
 object ForeachRDDApp {
   def main(args: Array[String]): Unit = {

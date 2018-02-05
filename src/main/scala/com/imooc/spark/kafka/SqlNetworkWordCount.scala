@@ -5,6 +5,9 @@ import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.streaming.{Seconds, StreamingContext, Time}
 
+/**
+  * Spark Streaming 整合 Spark Sql
+  */
 object SqlNetworkWordCount {
   def main(args: Array[String]): Unit = {
     val sparkConf = new SparkConf().setMaster("local[2]").setAppName("ForeachRDDApp")
