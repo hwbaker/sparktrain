@@ -18,9 +18,9 @@ object FlumePullWordCount {
     val Array(hostname, port) = args
 
     //本地环境联调
-    val sparkConf = new SparkConf().setMaster("local[2]").setAppName("FlumePullWordCount")
+//    val sparkConf = new SparkConf().setMaster("local[2]").setAppName("FlumePullWordCount")
     //生产环境联调
-//    val sparkConf = new SparkConf()//.setMaster("local[2]").setAppName("FlumePullWordCount")
+    val sparkConf = new SparkConf()
 
     val ssc = new StreamingContext(sparkConf, Seconds(5))
 
