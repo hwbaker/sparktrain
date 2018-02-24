@@ -6,6 +6,7 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 /**
   * Spark Streaming对接Kafka
+  * localhost:2181 test streamingtopic 1
   */
 object KafkaStreamingApp {
 
