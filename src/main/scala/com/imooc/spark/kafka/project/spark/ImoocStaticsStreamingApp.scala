@@ -1,7 +1,7 @@
 package com.imooc.spark.kafka.project.spark
 
-import com.imooc.spark.kafka.project.dao.CourseClickCountDAO
-import com.imooc.spark.kafka.project.domain.{ClickLog, CourseClickCount}
+import com.imooc.spark.kafka.project.dao.{CourseClickCountDAO, CourseSearchClickCountDAO}
+import com.imooc.spark.kafka.project.domain.{ClickLog, CourseClickCount, CourseSearchClickCount}
 import com.imooc.spark.kafka.project.utils.DateUtils
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.kafka.KafkaUtils
@@ -53,6 +53,7 @@ object ImoocStaticsStreamingApp {
 
     //测试步骤三，统计今天到现在为止实战课程访问量
     cleanData.map(x => {
+
       // 转换成HBase需要的数据形式：20171111_01
       (x.time.substring(0,8) + "_" + x.courseId, 1)
 
@@ -65,6 +66,39 @@ object ImoocStaticsStreamingApp {
         })
 
         CourseClickCountDAO.save(list)
+      })
+    })
+
+    //测试步骤四，统计从搜索引擎过来的今天到现在为止实战课程访问量
+    cleanData.map(x => {
+
+      /**
+        * referer
+        * https://www.baidu.com/s?wd=Kafka时间环境搭建
+        * ===>
+        * https:/www.baidu.com/s?wd=Kafka时间环境搭建
+        */
+      val referer = x.referer.replaceAll("//", "/")
+      val splits = referer.split("/")
+      var host = ""
+
+      if (splits.length > 2) {
+        host = splits(1)
+      }
+
+      (host, x.courseId, x.time)
+
+    }).filter(_._1 != "").map(x => {
+      (x._3.substring(0, 8) + "_" + x._1 + "_" + x._2, 1)
+    }).reduceByKey(_ + _).foreachRDD(rdd => {
+      rdd.foreachPartition(partitionsRecords => {
+        val list = new ListBuffer[CourseSearchClickCount]
+
+        partitionsRecords.foreach(pair => {
+          list.append(CourseSearchClickCount(pair._1, pair._2))
+        })
+
+        CourseSearchClickCountDAO.save(list)
       })
     })
 

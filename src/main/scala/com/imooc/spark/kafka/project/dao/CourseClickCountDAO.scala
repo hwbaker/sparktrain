@@ -66,6 +66,4 @@ object CourseClickCountDAO {
     save(list)
     println(select("20171111_10") + ":" + select("20171111_7") + ":" + select("20171111_8") + ":" + select("20171111_9"))
   }
-
-
 }
