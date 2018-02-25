@@ -124,8 +124,10 @@
   </dependencies>
 
   <build>
+    <!-- 解决第12章打包报错问题
     <sourceDirectory>src/main/scala</sourceDirectory>
     <testSourceDirectory>src/test/scala</testSourceDirectory>
+    -->
     <plugins>
       <plugin>
         <groupId>org.scala-tools</groupId>

@@ -21,7 +21,10 @@ object ImoocStaticsStreamingApp {
     }
     val Array(zkQuorum, groupId, topics, numThreads) = args
 
-    val sparkConf = new SparkConf().setMaster("local[2]").setAppName("ImoocStaticsStreamingApp")
+    //本地测试
+//    val sparkConf = new SparkConf().setMaster("local[2]").setAppName("ImoocStaticsStreamingApp")
+    //生产环境
+    val sparkConf = new SparkConf().setAppName("ImoocStaticsStreamingApp")
     val ssc = new StreamingContext(sparkConf, Seconds(60))
 
     val topicMap = topics.split(",").map((_, numThreads.toInt)).toMap
